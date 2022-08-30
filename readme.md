@@ -1,6 +1,6 @@
 # Trackgenix
 Julieta Diaz
 week 01
-...
+
 # Problematic two
-I resolve the probematic two: I Recreated the landing page that we did with figma in the problematic one. 
+I resolved the probematic two: I recreated the landing page that we did last week with figma in the problematic one. 
