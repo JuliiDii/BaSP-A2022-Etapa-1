@@ -1,0 +1,260 @@
+*{
+    color:#373867;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+
+    text-align: center;
+    font-weight: bold;
+    color:aliceblue;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 100px;
+   
+}
+.logorr {
+    position: absolute;
+    top: 5px;
+    
+
+}
+
+header{
+    background-color: #373867;
+    height: 100px;
+
+    
+}
+
+
+aside{
+    background-color: #c4c4c4;
+    border-radius: 16px;
+    position:fixed;
+    left: 0px;
+    line-height:  20px;
+    width: 400px;
+    height: 700px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.icon1{
+    position:relative;
+    top: 10px;
+   
+
+}
+
+.icon2{
+    position:relative;
+    top: 16px;
+    weight: 30px;
+    height: 38px;
+
+}
+
+.firstinput{
+    position:relative;
+    left: 55px;
+    width: 200px;
+}
+.navconteiner{
+    line-height: 50px; 
+    text-align: center;
+    border-bottom: solid 2px #373867;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    color: #373867;
+    
+
+}
+
+.contactus{
+    padding-top: 40px;
+    padding-bottom:10px;
+    font-weight: bold;
+    color: #373867;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.conteiner-email{
+    padding-top: 10px;
+    text-align: center;
+    
+    
+}
+#emailicon{
+    position: relative;
+    right: 150px;
+}
+#email{
+    position:relative;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+
+.conteinerubi{
+    padding-top: 10px;
+    text-align: center;
+   
+}
+#ubiicon{
+    position:relative;
+    left: 25px;
+   
+}
+#ubi{
+    position: relative;
+    left: 50px;
+    bottom: 27px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.conteinertel{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+#telicon{
+    position: relative;
+    right: 150px;
+}
+#tel{
+    position: relative;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    text-decoration:underline;
+    font-weight: bolder;
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+}
+.helpicon{
+    position: relative;
+    left:  1300px;
+    bottom: 40px;
+    
+    
+}
+.box1{
+    height: 500px;
+    width: 600px;
+}
+.h31{
+    font-size: 30px;
+    font-weight: bold;
+    position:relative;
+    left: 430px;
+    top: 390px;
+   
+
+}
+.img1{
+    height: 345px;
+    weight: 594px;
+    border-radius: 10px;
+    position:relative;
+    left: 420px;
+    
+}
+.lorem1{
+    position: relative;
+    left: 420px;
+    top: 50px;
+    border-bottom: solid 2px #373867;
+
+    
+
+}
+.button1{
+    position:relative;
+    left: 900px;
+    top: 25px;
+    border-radius: 5px;
+
+
+}
+.box2{
+    position: relative;
+    left: 1000px;
+    bottom: 500px;
+    height: 200px;
+    width: 450px;
+    border-bottom: solid 2px #373867;
+
+
+}
+
+.h32{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 140px;
+    top: 40px;
+
+}
+.img2{
+    width: 128px;
+    height: 145px;
+    border-radius: 10px;
+}
+.lorem2{
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+    width: 330px;
+}
+.button2{
+    position:relative;
+    left: 330px;
+    bottom: 90px;
+    border-radius: 5px;
+}
+.box3{
+    position: relative;
+    bottom: 500px;
+    left: 1000px;
+    height: 200px;
+    width: 450px;
+    border-bottom: solid 2px #373867;
+
+}
+.h33{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 140px;
+    top: 40px
+}
+.img3{
+    width: 128px;
+    height: 145px;
+    border-radius: 10px;
+}
+.lorem3{
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+    width: 400px;
+}
+.button3{
+    position:relative;
+    left: 330px;
+    bottom: 90px;
+    border-radius: 5px;
+}
+
