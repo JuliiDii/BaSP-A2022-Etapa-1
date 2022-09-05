@@ -152,7 +152,8 @@ h2{
 }
 .box1{
     height: 500px;
-    width: 600px;
+    width: 550px;
+    
 }
 .h31{
     font-size: 30px;
@@ -175,7 +176,9 @@ h2{
     position: relative;
     left: 420px;
     top: 50px;
+    height: 100px;
     border-bottom: solid 2px #373867;
+   
 
     
 
@@ -183,8 +186,9 @@ h2{
 .button1{
     position:relative;
     left: 900px;
-    top: 25px;
+    top: 20px;
     border-radius: 5px;
+    
 
 
 }
@@ -193,7 +197,7 @@ h2{
     left: 1000px;
     bottom: 500px;
     height: 200px;
-    width: 450px;
+    width: 300px;
     border-bottom: solid 2px #373867;
 
 
@@ -216,11 +220,11 @@ h2{
     position: relative;
     left: 140px;
     bottom: 100px;
-    width: 330px;
+    width: 180px;
 }
 .button2{
     position:relative;
-    left: 330px;
+    left: 250px;
     bottom: 90px;
     border-radius: 5px;
 }
@@ -228,8 +232,8 @@ h2{
     position: relative;
     bottom: 500px;
     left: 1000px;
-    height: 200px;
-    width: 450px;
+    height: 230px;
+    width: 300px;
     border-bottom: solid 2px #373867;
 
 }
@@ -238,9 +242,12 @@ h2{
     font-weight: bold;
     position: relative;
     left: 140px;
-    top: 40px
+    top: 25px;
+    width: 50px;
 }
 .img3{
+    position: relative;
+    bottom:50px;
     width: 128px;
     height: 145px;
     border-radius: 10px;
@@ -248,13 +255,148 @@ h2{
 .lorem3{
     position: relative;
     left: 140px;
-    bottom: 100px;
-    width: 400px;
+    bottom: 110px;
+    width: 180px;
 }
 .button3{
     position:relative;
-    left: 330px;
+    left: 250px;
     bottom: 90px;
     border-radius: 5px;
 }
 
+.box4{
+    position: relative;
+    left: 420px;
+    bottom: 380px;
+    color:#373867;
+    font-family: 'Roboto', sans-serif;
+    height: 570px;
+    width:950px;
+    border-bottom: solid 2px #373867;
+}
+.h34{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.img4{
+    position: relative;
+    top:40px;
+    left: 500px;
+    width: 400px;
+    height: 440px;
+    border-radius: 10px;
+   
+}
+.lorem4{
+    width: 450px;
+    height: 200px;
+    position: relative;
+    bottom: 300px;
+}
+.h35{
+    text-align: center;
+    position: relative;
+    left: 180px;
+    bottom:370px;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.box5{
+    position: relative;
+    bottom: 400px;
+    left: 440px;
+    display: inline-block;
+    width: 50%
+
+}
+.h41{
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    left: 160px;
+    top:60px;
+    width: 30%;
+    
+
+}
+.lorem5{
+    position: relative;
+    width: 30%;
+    left: 160px;
+    bottom:70px;
+}
+.box6{
+    position: relative;
+    bottom: 650px;
+    left:900px;
+    display: inline-block;
+    width: 50%
+
+}
+.h42{
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    left: 160px;
+    top:45px;
+    width: 30%;
+    
+
+}
+.lorem6{
+    position: relative;
+    width: 30%;
+    left: 160px;
+    bottom :70px;
+}
+.box7{
+    position: relative;
+    bottom: 600px;
+    left: 440px;
+    display: inline-block;
+    width: 50%
+
+}
+.h43{
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    left: 160px;
+    top:60px;
+    width: 30%;
+    
+
+}
+.lorem7{
+    position: relative;
+    width: 30%;
+    left: 160px;
+    bottom:70px;
+}
+.box8{
+    position: relative;
+    bottom: 850px;
+    left:900px;
+    display: inline-block;
+    width: 50%
+
+}
+.h44{
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    left: 160px;
+    top:45px;
+    width: 30%;
+    
+
+}
+.lorem8{
+    position: relative;
+    width: 30%;
+    left: 160px;
+    bottom :70px;
+}
