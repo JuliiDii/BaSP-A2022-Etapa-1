@@ -2,65 +2,54 @@
     color:#373867;
     font-family: 'Roboto', sans-serif;
 }
-
-h1 {
-
-    text-align: center;
-    font-weight: bold;
+h1{
+    position: relative;
+    left: 200px;
+    text-align:center;
+    font-weight:bold;
     color:aliceblue;
     font-size: 60px;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    left: 100px;
-   
+    font-family:'Roboto', sans-serif;
 }
-.logorr {
-    position: absolute;
+.logo-rr{
+    position:absolute;
     top: 5px;
-    
-
 }
 
 header{
     background-color: #373867;
-    height: 100px;
-
-    
+    height: 100px;  
 }
 
-
+/* Sidebar*/
 aside{
-    background-color: #c4c4c4;
-    border-radius: 16px;
     position:fixed;
     left: 0px;
     line-height:  20px;
     width: 400px;
     height: 700px;
+    background-color: #c4c4c4;
+    border-radius: 16px;
     font-family: 'Roboto', sans-serif;
-
 }
 .icon1{
     position:relative;
-    top: 10px;
-   
-
+    top:10px;
 }
-
 .icon2{
     position:relative;
-    top: 16px;
-    weight: 30px;
-    height: 38px;
-
+    top:16px;
+    weight:30px;
+    height:38px;
 }
 
-.firstinput{
+.first-input{
     position:relative;
     left: 55px;
     width: 200px;
 }
-.navconteiner{
+/*Menu*/
+.nav-conteiner{
     line-height: 50px; 
     text-align: center;
     border-bottom: solid 2px #373867;
@@ -68,335 +57,198 @@ aside{
     padding-bottom: 40px;
     font-size: 30px;
     color: #373867;
-    
-
 }
-
+/*contactus*/
+.contactus-conteiner{
+    position:relative;
+    top:50px;
+    text-align: center;
+}
 .contactus{
-    padding-top: 40px;
-    padding-bottom:10px;
+    position:relative;
+    bottom: 40px;
     font-weight: bold;
     color: #373867;
     font-size: 30px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif; 
 }
-.conteiner-email{
-    padding-top: 10px;
-    text-align: center;
-    
-    
-}
-#emailicon{
-    position: relative;
-    right: 150px;
-}
-#email{
+.contact-icon{
     position:relative;
-    bottom: 25px;
-    font-size: 20px;
-    font-weight: bold;
-  
+    right:180px;
+    top:20px;
+    line-height:20px;
 }
-
-.conteinerubi{
-    padding-top: 10px;
-    text-align: center;
-   
+.contact-info{
+    font-size:20px;
+    line-height:20px;
 }
-#ubiicon{
+.help-icon{
     position:relative;
-    left: 25px;
-   
+    left:1300px;
+    bottom:40px;  
 }
-#ubi{
-    position: relative;
-    left: 50px;
-    bottom: 27px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-.conteinertel{
-    padding-top: 10px;
-    text-align: center;
-    
-}
-#telicon{
-    position: relative;
-    right: 150px;
-}
-#tel{
-    position: relative;
-    bottom: 25px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
+/*Home*/
 h2{
-    text-align: center;
+    text-align:center;
     text-decoration:underline;
     font-weight: bolder;
-    font-size: 60px;
-    position: relative;
-    top: 40px;
+    font-size:60px;
+    position:relative;
+    top:40px;
 }
-.helpicon{
-    position: relative;
-    left:  1300px;
-    bottom: 40px;
-    
-    
-}
-.box1{
-    height: 500px;
-    width: 550px;
-    
-}
-.h31{
-    font-size: 30px;
+h3{
+    font-size:30px;
     font-weight: bold;
-    position:relative;
-    left: 430px;
-    top: 390px;
-   
+    text-align: center;
+}
+.balance.conteiner{
+    height:500px;
+    width:800px;
+}
 
-}
-.img1{
-    height: 345px;
-    weight: 594px;
-    border-radius: 10px;
+.hombre-img{
+    height:345px;
+    width:594px;;
+    border-radius:10px;
     position:relative;
-    left: 420px;
-    
+    left:420px;  
 }
-.lorem1{
-    position: relative;
-    left: 420px;
-    top: 50px;
-    height: 100px;
+.lorem-1{
+    position:relative;
+    left:450px;
+    top:50px;
+    height:100px;
+    width:500px;
+    border-bottom:solid 2px #373867;
+}
+.button-1{
+    position:relative;
+    left:900px;
+    top:20px;
+    border-radius:5px;
+}
+.tecnologies-conteiner{
+    position:relative;
+    left:1050px;
+    bottom:550px;
+    height:200px;
+    width:300px;
     border-bottom: solid 2px #373867;
-   
-
-    
-
 }
-.button1{
+.tittle-home{
     position:relative;
-    left: 900px;
-    top: 20px;
-    border-radius: 5px;
-    
-
-
+    bottom:90px;
+    left: 100px;
 }
-.box2{
-    position: relative;
-    left: 1000px;
-    bottom: 500px;
-    height: 200px;
-    width: 300px;
+.img-2{
+    position:relative;
+    top:50px;
+    width:128px;
+    height:145px;
+    border-radius:10px;
+}
+.lorem-2{
+    position:relative;
+    left:140px;
+    bottom:90px;
+    width:180px;
+}
+.button-2{
+    position:relative;
+    left:250px;
+    bottom:90px;
+    border-radius:5px;
+}
+.newtecnologies-conteiner{
+    position:relative;
+    bottom:550px;
+    left:1050px;
+    height:230px;
+    width:300px;
     border-bottom: solid 2px #373867;
-
-
 }
 
-.h32{
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    left: 140px;
-    top: 40px;
-
-}
-.img2{
-    width: 128px;
-    height: 145px;
-    border-radius: 10px;
-}
-.lorem2{
-    position: relative;
-    left: 140px;
-    bottom: 100px;
-    width: 180px;
-}
-.button2{
+/*Tragectory*/
+.tragectory-conteiner{
     position:relative;
-    left: 250px;
-    bottom: 90px;
-    border-radius: 5px;
-}
-.box3{
-    position: relative;
-    bottom: 500px;
-    left: 1000px;
-    height: 230px;
-    width: 300px;
-    border-bottom: solid 2px #373867;
-
-}
-.h33{
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    left: 140px;
-    top: 25px;
-    width: 50px;
-}
-.img3{
-    position: relative;
-    bottom:50px;
-    width: 128px;
-    height: 145px;
-    border-radius: 10px;
-}
-.lorem3{
-    position: relative;
-    left: 140px;
-    bottom: 110px;
-    width: 180px;
-}
-.button3{
-    position:relative;
-    left: 250px;
-    bottom: 90px;
-    border-radius: 5px;
-}
-
-.box4{
-    position: relative;
-    left: 420px;
-    bottom: 380px;
+    left:450px;
+    bottom:350px;
     color:#373867;
     font-family: 'Roboto', sans-serif;
-    height: 570px;
+    height:570px;
     width:950px;
     border-bottom: solid 2px #373867;
 }
-.h34{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-}
-.img4{
-    position: relative;
+.img-3{
+    position:relative;
     top:40px;
-    left: 500px;
-    width: 400px;
-    height: 440px;
-    border-radius: 10px;
-   
+    left:500px;
+    width:600px;
+    height:440px;
+    border-radius:10px;
 }
-.lorem4{
-    width: 450px;
-    height: 200px;
-    position: relative;
-    bottom: 300px;
+.lorem-3{
+    width:450px;
+    height:200px;
+    position:relative;
+    bottom:300px;
 }
-.h35{
-    text-align: center;
-    position: relative;
-    left: 180px;
-    bottom:370px;
-    font-weight: bolder;
-    font-size: 30px;
-
+/*Tragnenix Benefits*/
+.benefits-conteiner{
+    height:250px;
+    width:1400px;
+    border-bottom: solid 2px #373867;
 }
-.box5{
-    position: relative;
-    bottom: 400px;
-    left: 440px;
-    display: inline-block;
-    width: 50%
-
+.workwithus-conteiner{
+   position:relative;
+   bottom:300px;
+   left: 180px;
 }
-.h41{
-    font-weight: bolder;
-    font-size: 25px;
-    position: relative;
-    left: 160px;
+h4{
+    font-weight:bolder;
+    font-size:25px;
+    position:relative;
+    left:160px;
     top:60px;
-    width: 30%;
-    
-
+    width:30%;
 }
-.lorem5{
-    position: relative;
-    width: 30%;
-    left: 160px;
+.lorem-4{
+    position:relative;
+    width:30%;
+    left:160px;
     bottom:70px;
 }
-.box6{
-    position: relative;
-    bottom: 650px;
+.productivity-conteiner{
+    position:relative;
+    bottom:300px;
+    left:440px;
+    display:inline-block;
+    width:50%
+}
+.teams-conteiner{
+    position:relative;
+    bottom:550px;
     left:900px;
-    display: inline-block;
-    width: 50%
+    display:inline-block;
+    width:50%
+}
 
+.progress-conteiner{
+    position:relative;
+    bottom:600px;
+    left:440px;
+    display:inline-block;
+    width:50%
 }
-.h42{
-    font-weight: bolder;
-    font-size: 25px;
-    position: relative;
-    left: 160px;
-    top:45px;
-    width: 30%;
-    
 
-}
-.lorem6{
-    position: relative;
-    width: 30%;
-    left: 160px;
-    bottom :70px;
-}
-.box7{
-    position: relative;
-    bottom: 600px;
-    left: 440px;
-    display: inline-block;
-    width: 50%
-
-}
-.h43{
-    font-weight: bolder;
-    font-size: 25px;
-    position: relative;
-    left: 160px;
-    top:60px;
-    width: 30%;
-    
-
-}
-.lorem7{
-    position: relative;
-    width: 30%;
-    left: 160px;
-    bottom:70px;
-}
-.box8{
-    position: relative;
-    bottom: 850px;
+.decisions-conteiner{
+    position:relative;
+    bottom:850px;
     left:900px;
-    display: inline-block;
-    width: 50%
+    display:inline-block;
+    width:50%
+}
 
-}
-.h44{
-    font-weight: bolder;
-    font-size: 25px;
-    position: relative;
-    left: 160px;
-    top:45px;
-    width: 30%;
-    
 
-}
-.lorem8{
-    position: relative;
-    width: 30%;
-    left: 160px;
-    bottom :70px;
-}
+
+
