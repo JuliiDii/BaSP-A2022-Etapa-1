@@ -1,0 +1,393 @@
+*{
+    color:#373867;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    position: relative;
+    left: 200px;
+    text-align:center;
+    font-weight:bold;
+    color:aliceblue;
+    font-size: 60px;
+    font-family:'Roboto', sans-serif;
+}
+.logo-rr{
+    position:absolute;
+    top: 5px;
+}
+
+header{
+    background-color: #373867;
+    height: 100px;  
+}
+
+/* Sidebar*/
+aside{
+    position:fixed;
+    left: 0px;
+    line-height:  20px;
+    width: 400px;
+    height: 700px;
+    background-color: #c4c4c4;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.icon1{
+    position:relative;
+    top:10px;
+}
+.icon2{
+    position:relative;
+    top:16px;
+    weight:30px;
+    height:38px;
+}
+
+.first-input{
+    position:relative;
+    left: 55px;
+    width: 200px;
+}
+/*Menu*/
+.nav-conteiner{
+    line-height: 50px; 
+    text-align: center;
+    border-bottom: solid 2px #373867;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    color: #373867;
+}
+/*contactus*/
+.contactus-conteiner{
+    position:relative;
+    top:50px;
+    text-align: center;
+}
+.contactus{
+    position:relative;
+    bottom: 40px;
+    font-weight: bold;
+    color: #373867;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif; 
+}
+.contact-icon{
+    position:relative;
+    right:180px;
+    top:20px;
+    line-height:20px;
+}
+.contact-info{
+    font-size:20px;
+    line-height:20px;
+}
+.help-icon{
+    position:relative;
+    left:1300px;
+    bottom:40px;  
+}
+/*Home*/
+h2{
+    text-align:center;
+    text-decoration:underline;
+    font-weight: bolder;
+    font-size:60px;
+    position:relative;
+    top:40px;
+}
+h3{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+}
+.balance.conteiner{
+    height:500px;
+    width:800px;
+}
+
+.hombre-img{
+    height:345px;
+    width:594px;;
+    border-radius:10px;
+    position:relative;
+    left:420px;  
+}
+.lorem-1{
+    position:relative;
+    left:450px;
+    top:50px;
+    height:100px;
+    width:500px;
+    border-bottom:solid 2px #373867;
+}
+.button-1{
+    position:relative;
+    left:900px;
+    top:20px;
+    border-radius:5px;
+}
+.tecnologies-conteiner{
+    position:relative;
+    left:1050px;
+    bottom:550px;
+    height:200px;
+    width:300px;
+    border-bottom: solid 2px #373867;
+}
+.tittle-home{
+    position:relative;
+    bottom:90px;
+    left: 100px;
+}
+.img-2{
+    position:relative;
+    top:50px;
+    width:128px;
+    height:145px;
+    border-radius:10px;
+}
+.lorem-2{
+    position:relative;
+    left:140px;
+    bottom:90px;
+    width:180px;
+}
+.button-2{
+    position:relative;
+    left:250px;
+    bottom:90px;
+    border-radius:5px;
+}
+.newtecnologies-conteiner{
+    position:relative;
+    bottom:550px;
+    left:1050px;
+    height:230px;
+    width:300px;
+    border-bottom: solid 2px #373867;
+}
+
+/*Tragectory*/
+.tragectory-conteiner{
+    position:relative;
+    left:450px;
+    bottom:350px;
+    color:#373867;
+    font-family: 'Roboto', sans-serif;
+    height:570px;
+    width:950px;
+    border-bottom: solid 2px #373867;
+}
+.img-3{
+    position:relative;
+    top:40px;
+    left:500px;
+    width:600px;
+    height:440px;
+    border-radius:10px;
+}
+.lorem-3{
+    width:450px;
+    height:200px;
+    position:relative;
+    bottom:300px;
+}
+/*Tragnenix Benefits*/
+.benefits-conteiner{
+    height:250px;
+    width:1400px;
+    border-bottom: solid 2px #373867;
+}
+.workwithus-conteiner{
+   position:relative;
+   bottom:300px;
+   left: 180px;
+}
+h4{
+    font-weight:bolder;
+    font-size:25px;
+    position:relative;
+    left:160px;
+    top:60px;
+    width:30%;
+}
+.lorem-4{
+    position:relative;
+    width:30%;
+    left:160px;
+    bottom:70px;
+}
+.productivity-conteiner{
+    position:relative;
+    bottom:300px;
+    left:440px;
+    display:inline-block;
+    width:50%
+}
+.teams-conteiner{
+    position:relative;
+    bottom:550px;
+    left:900px;
+    display:inline-block;
+    width:50%
+}
+
+.progress-conteiner{
+    position:relative;
+    bottom:600px;
+    left:440px;
+    display:inline-block;
+    width:50%
+}
+
+.decisions-conteiner{
+    position:relative;
+    bottom:850px;
+    left:900px;
+    display:inline-block;
+    width:50%
+}
+/*functions*/
+.functions-conteiner{
+    height:600px;
+    width:1400px;
+    border-bottom: solid 2px #373867;
+}
+.functions-conteiner2{
+    position:relative;
+    top:50px;
+    left: 180px;
+}
+.functionsimg-conteiner{
+    position:relative;
+    left:420px;
+    top:100px; 
+    width:580px;
+    height:417px;
+    border-radius:10px;
+   
+}
+.functionsli-conteiner{
+    position:relative;
+    left:1100px;
+    bottom:200px;
+    font-size:30px;
+    width:300px;
+    height: 361px;
+}
+/*get in touch*/
+.getintouch-conteiner{
+    position:relative;
+    top:100px;
+    left:600px;
+    height:500px;
+    border-bottom: solid 2px #373867
+}
+.getintouch-conteiner2{
+    position:relative;
+   bottom:100px;
+    right:500px;
+}
+.getintouchinput-conteiner{
+    height:40px;
+    width:800px;
+    right:200px;
+    color: #c4c4c4;
+}
+.textarea-conteiner{
+    height:150px;
+    width:800px;
+    left:10px;
+    color: #c4c4c4;
+}
+.getintouch-button{
+    color: #c4c4c4;
+    width:100px;
+    height:30px;
+}
+/*Tittle*/
+.h38{
+    position:relative;
+    top:150px;
+    left:150px;
+}
+.tittle-conteiner{
+    position:relative;
+    height:700px;
+    width:1400px;
+    border-bottom: solid 2px #373867;
+}
+.img10{
+    position:relative;
+    top:180px;
+    left:450px;
+    width:400px;
+    height:380px;
+}
+.box16{
+    position:relative;
+    bottom:230px;
+    left:900px;
+    width:400px;
+    height:380px;
+    font-size:25px;
+}
+/*Lists*/
+.h39{
+    position:relative;
+    right:300px;
+    top:300px;
+}
+.lists-conteiner{
+    
+    width:800px;
+    height:600px;
+    position:relative;
+    left:800px;
+    bottom:300px;
+}
+.box17{
+    position:relative;
+    height:145px;
+    width:210px;
+    top:300px;
+    right:300px;
+    font-size:25px;
+}
+.box18{
+    position:relative;
+    height:145px;
+    width:210px;
+    top:160px;
+    left:200px;
+    font-size:25px;
+}
+/*footer*/
+footer{
+    background-color:#c4c4c4;
+    height: 50px; 
+}
+.footer-name{
+    position:relative;
+    left:700px;
+}
+.fb-icon{
+    position:relative;
+    left:730px;
+}
+.tw-icon{
+    position:relative;
+    left:765px;
+}
+.li-icon{
+    position:relative;
+    left:800px;
+}
+
+
+
+
+
+
+
