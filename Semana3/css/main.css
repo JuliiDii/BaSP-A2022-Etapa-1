@@ -1,0 +1,49 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    color: #373867;
+    font-size: 20px;
+}
+.balance-conteiner{
+    margin-top:60px;
+}
+.home-img{
+    width: 300px;
+}
+.trayectory-img{
+    width: 300px;
+}
+.functions-img{
+    width: 300px;
+}
+.first-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.dots-sobre{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+}
+.mg-icon{
+    padding-top:15px;
+}
+.help-icon{
+    width: 40px;
+    height: 40px;
+}
+.balance-conteiner,.tecnologies-conteiner,.newtecnologies-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
