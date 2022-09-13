@@ -1,0 +1,11 @@
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #c4c4c4
+}
+.footer-conteiner{
+    text-align: center;
+}
+.footer-name{
+    color: #fff;
+}
