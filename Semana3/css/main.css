@@ -7,21 +7,10 @@ body{
 .balance-conteiner{
     margin-top:60px;
 }
-.home-img{
-    width: 300px;
-}
-.trayectory-img{
-    width: 300px;
-}
-.functions-img{
-    width: 300px;
-}
 .first-conteiner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-
 }
 .dots-sobre{
     display: flex;
@@ -89,7 +78,6 @@ body{
     text-align: center;
     width: 322px;
     height: 139px;
-    padding:30px,0px,0px,30px;
     margin-top:20px;
 }
 .benefits-conteiner{
@@ -107,6 +95,9 @@ body{
 }
 .workwithus-conteiner{
     margin-bottom: 20px;
+}
+.benefits-lorem{
+    width: 200px;
 }
 .functions-conteiner{
     display: flex;
@@ -141,14 +132,14 @@ body{
     margin-bottom: 40px;
 }
 .getintouchinput-conteiner{
-    width:350px;
+    width:300px;
     height: 50px;
     margin-bottom: 20px;
     color:#c4c4c4;
     border-radius: 4px;
 }
 .textarea-conteiner{
-    width:350px;
+    width:300px;
     height: 100px;
     margin-bottom: 20px;
     color:#c4c4c4;
