@@ -13,7 +13,7 @@ header{
 h1{
     display: flex;
     padding:5px;
-    width:300px;
+    width:80%;
     font-family:'Roboto', sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -26,7 +26,16 @@ h1{
 
 }
 
+@media screen and (min-width:768px) {
+.header-conteiner{
+    height:100%;
+    width: 100%;
 
+}
+.h1{
+  width: 100%;
+}
+}
 
 
 
