@@ -1,11 +1,12 @@
 # Trackgenix
 author: Julieta Diaz\
-*Trackgenix is ​​a webside sistem that helps to organize ´projects and the working hours by the employees of Gigatech Sorftware solutions SA*
+*Trackgenix is ​​a webside system that helps to organize projects and the working hours by the employees of Gigatech Sorftware solutions SA*
 
 **Problematic one**
 We created the desktop sketch of the page in "figma"
 I created an html file recreating the skill of the landing.
 ![ScreenShot](/Semana1/assets/figma.png.jpeg)
+
 **Problematic two**
 I add styles to the landing with css.
 We created a tablet and mobile desing of the landing in figma for the next problematic.
