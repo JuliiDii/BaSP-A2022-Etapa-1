@@ -18,5 +18,5 @@ for (i = 0 ; i < animals.length; i ++){
 for (i = 0 ; i <10 ; i ++){
 var empty =[];
 empty.push(i);
-alert('5-d empty: ' +empty);1
+console.log('5-d empty: ' +empty);1
 }
