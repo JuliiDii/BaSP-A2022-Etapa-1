@@ -25,6 +25,9 @@ body{
     width: 40px;
     height: 40px;
 }
+.home-conteiner{
+    
+}
 .balance-conteiner,.tecnologies-conteiner,.newtecnologies-conteiner {
     display: flex;
     flex-direction: column;
@@ -201,124 +204,6 @@ ul{
     list-style-type: circle;
 }
 
-@media screen and (min-width:768px){
-main{
-    width: 830px;
-
-}
-h2{
-    font-size: 60px;
-    font-weight: bold;
-}
- .home-conteiner{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    margin-left: 50px;
-    margin-top: 50px;
-    
- }
-
-
-.tragectory-conteiner{
-    width: 800px;
-}
-#tragectory-tittle{
-    font-size:50px;
-    width: 500px;
-}
-.tragectory-lorem{
-    font-size: 25px;
-    width:500px ;
-}
-
-.trackgenixbenefits-conteiner{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.benefits-conteiner{
-    width: 300px;
-}
-.workwithus-conteiner{
-    font-size:50px;
-    width: 500px;
-   margin-top: 300px;
-    padding-left: 150px;
-}
-.functions-conteiner{
-    flex-direction:row;
-    text-align:center;
-    margin-bottom:180px;
-    margin-top: 60px;
-}
-#functions-tittle{
-    font-size:50px;
-    width: 500px;
-    padding-left: 250px;
-}
-.functions-img{
-    width:394px;
-    height:446px;
-    padding-right:100px;
-}
-.functionsli-conteiner{
-    margin-top: 30px;
-    font-size:30px;
-    font-weight: bold;
-    line-height: 2em;
-}
-#getintouch-tittle{
-    font-size:50px;
-    width: 500px;
-}
-.getintouchinput-conteiner{
-    width:550px;
-    height: 50px;
-}
-.textarea-conteiner{
-    width:550px;
-    height: 100px;
-}
-.getintouch-button{
-    height: 50px;
-
-}
-.tittle-conteiner{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    margin-left: 50px;
-    margin-top: 100px;
- }
- #tittle-tittle{
-    font-size:50px;
-    width: 500px;
-}
-.tittle-img{
-    width: 250px;
-    height: 110px;
-}
-.tittle-lorem{
- font-size: 15px;
-}
-.lists-conteiner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#lists-tittle{
-    font-size:50px;
-    text-align: center;
-}
-.order-list{
-    font-size: 30px;
-}
-.unorder-list{
-    font-size: 30px;
-
-}
 
 
 
@@ -326,7 +211,8 @@ h2{
 
 
 
-}
+
+
 
 
 
