@@ -55,26 +55,18 @@ h2{
     align-items: center;
     margin-left: 50px;
     margin-top: 50px;
-
 }
 .newtecnologies-conteiner .home-tittle{
     height: 74px;
-
-}
-
-
-.tragectory-conteiner{
-    width: 800px;
 }
 #tragectory-tittle{
-    font-size:50px;
+    font-size:30px;
     width: 500px;
 }
 .tragectory-lorem{
     font-size: 25px;
     width:500px ;
 }
-
 .trackgenixbenefits-conteiner{
     display: flex;
     flex-direction:row;
@@ -87,7 +79,7 @@ h2{
 .workwithus-conteiner{
     font-size:50px;
     width: 500px;
-margin-top: 300px;
+    margin-top: 300px;
     padding-left: 150px;
 }
 .functions-conteiner{
@@ -165,5 +157,168 @@ font-size: 15px;
 }
 }
 @media screen and (min-width:1512px) {
+.header-conteiner{
+    height:100%;
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.sidebar-conteiner{
+    display: block;
+    background-color: #c4c4c4;
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 50px;
+    color:#373867
+}
+.first-input{
+    height:30px ;
+    width: 170px;
+}
+.sidebar-conteiner li{
+    list-style-type: none;
+}
+.nav-conteiner a{
+    color:#373867;
+}
+.nav-conteiner li{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.contactus{
+    padding-top: 100px;
+    font-size: 30px;
+}
+.contact-info{
+    font-size: 25px;
+}
+.contact-item{
+    display: flex;
+}
+.main-conteiner{
+    display: flex;
 
 }
+.conteiner{
+    width: 100%;
+}
+.dots-sobre{
+   display: none;
+}
+.first-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.balance-conteiner .home-img{
+    width: 590px;
+    height: 345px;
+}
+.balance-conteiner .home-tittle{
+    width: 600px;
+}
+.balance-conteiner .home-lorem{
+    width: 600px;
+    font-size: 25px;
+}
+.newtecnologies-conteiner, .tecnologies-conteiner{
+    flex-direction: row;
+}
+.home-lorem{
+    font-size: 25px;
+}
+.balance-conteiner{
+    height:600px;
+}
+.tragectory-items{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+#tragectory-tittle{
+    font-size: 60px;
+    width: 800px;
+
+}
+.trayectory-img{
+    width: 615px;
+    height: 440px;
+}
+.tragectory-lorem{
+    width: 400px;
+    height: 300px;
+    font-size: 25px;
+}
+
+.workwithus-conteiner{
+    font-size: 60px;
+    width: 800px;
+
+}
+.trackgenixbenefits-conteiner{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    font-size: 30px;
+}
+.benefits-img{
+    width: 130px;
+    height: 150px;
+}
+
+.benefits-lorem{
+    font-size: 25px;
+}
+.functions-img{
+    width:585px;
+    height:417px;
+   border-radius: 10px;
+}
+.functionsli-conteiner{
+   width: 309px;
+}
+.getintouchinput-conteiner{
+    width:780px;
+    height: 55px;
+}
+.textarea-conteiner{
+    width:780px;
+    height: 55px;
+}
+.getintouch-button{
+    width: 162px;
+
+}
+.tittlecomplete-conteiner{
+    display: flex;
+    flex-direction: row;
+}
+.tittle-conteiner{
+    flex-direction: column;
+}
+.tittle-lorem{
+    font-size: 25px;
+    width: 400px;
+}
+.tittle-img{
+    width: 400px;
+}
+.order-list{
+    font-size: 50px;
+}
+.unorder-list{
+    font-size: 50px;
+
+}
+.lists-conteiner, .ol{
+    font-size: 30px;
+}
+}
+
+
+
+
