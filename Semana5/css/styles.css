@@ -1,0 +1,324 @@
+
+h1{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+h4{
+    font-weight:bold;
+    font-size:25px;
+}
+p{
+    font-size: 15px;
+    padding:20px;
+}
+@media screen and (min-width:768px) {
+.header-conteiner{
+height:100%;
+width: 100%;
+
+}
+.h1{
+width: 100%;
+}
+
+main{
+    width: 830px;
+
+}
+h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.dots-sobre{
+    flex-direction: row;
+    padding: 12px;
+}
+
+.mg-icon {
+    padding:0%;
+    margin-left:10px;
+    height: 30px;
+}
+.home-conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.newtecnologies-conteiner .home-tittle{
+    height: 74px;
+}
+#tragectory-tittle{
+    font-size:30px;
+    width: 500px;
+}
+.tragectory-lorem{
+    font-size: 25px;
+    width:500px ;
+}
+.trackgenixbenefits-conteiner{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.benefits-conteiner{
+    width: 300px;
+}
+.workwithus-conteiner{
+    font-size:50px;
+    width: 500px;
+    margin-top: 300px;
+    padding-left: 150px;
+}
+.functions-conteiner{
+    flex-direction:row;
+    text-align:center;
+    margin-bottom:180px;
+    margin-top: 60px;
+}
+#functions-tittle{
+    font-size:50px;
+    width: 500px;
+    padding-left: 250px;
+}
+.functions-img{
+    width:394px;
+    height:446px;
+    padding-right:100px;
+}
+.functionsli-conteiner{
+    margin-top: 30px;
+    font-size:30px;
+    font-weight: bold;
+    line-height: 2em;
+}
+#getintouch-tittle{
+    font-size:50px;
+    width: 500px;
+}
+.getintouchinput-conteiner{
+    width:550px;
+    height: 50px;
+}
+.textarea-conteiner{
+    width:550px;
+    height: 100px;
+}
+.getintouch-button{
+    height: 50px;
+    width: 150px;
+
+}
+.tittle-conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#tittle-tittle{
+    font-size:50px;
+    width: 500px;
+}
+.tittle-img{
+    width: 250px;
+    height: 110px;
+}
+.tittle-lorem{
+font-size: 15px;
+}
+.lists-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#lists-tittle{
+    font-size:50px;
+    text-align: center;
+}
+.order-list{
+    font-size: 30px;
+}
+.unorder-list{
+    font-size: 30px;
+
+}
+}
+@media screen and (min-width:1512px) {
+.header-conteiner{
+    height:100%;
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.sidebar-conteiner{
+    display: block;
+    background-color: #c4c4c4;
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 50px;
+    color:#373867
+}
+.first-input{
+    height:30px ;
+    width: 170px;
+}
+.sidebar-conteiner li{
+    list-style-type: none;
+}
+.nav-conteiner a{
+    color:#373867;
+}
+.nav-conteiner li{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.contactus{
+    padding-top: 100px;
+    font-size: 30px;
+}
+.contact-info{
+    font-size: 25px;
+}
+.contact-item{
+    display: flex;
+}
+.main-conteiner{
+    display: flex;
+
+}
+.conteiner{
+    width: 100%;
+}
+.dots-sobre{
+   display: none;
+}
+.first-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.balance-conteiner .home-img{
+    width: 590px;
+    height: 345px;
+}
+.balance-conteiner .home-tittle{
+    width: 600px;
+}
+.balance-conteiner .home-lorem{
+    width: 600px;
+    font-size: 25px;
+}
+.newtecnologies-conteiner, .tecnologies-conteiner{
+    flex-direction: row;
+}
+.home-lorem{
+    font-size: 25px;
+}
+.balance-conteiner{
+    height:600px;
+}
+.tragectory-items{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+#tragectory-tittle{
+    font-size: 60px;
+    width: 800px;
+
+}
+.trayectory-img{
+    width: 615px;
+    height: 440px;
+}
+.tragectory-lorem{
+    width: 400px;
+    height: 300px;
+    font-size: 25px;
+}
+
+.workwithus-conteiner{
+    font-size: 60px;
+    width: 800px;
+
+}
+.trackgenixbenefits-conteiner{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    font-size: 30px;
+}
+.benefits-img{
+    width: 130px;
+    height: 150px;
+}
+
+.benefits-lorem{
+    font-size: 25px;
+}
+.functions-img{
+    width:585px;
+    height:417px;
+   border-radius: 10px;
+}
+.functionsli-conteiner{
+   width: 309px;
+}
+.getintouchinput-conteiner{
+    width:780px;
+    height: 55px;
+}
+.textarea-conteiner{
+    width:780px;
+    height: 55px;
+}
+.getintouch-button{
+    width: 162px;
+
+}
+.tittlecomplete-conteiner{
+    display: flex;
+    flex-direction: row;
+}
+.tittle-conteiner{
+    flex-direction: column;
+}
+.tittle-lorem{
+    font-size: 25px;
+    width: 400px;
+}
+.tittle-img{
+    width: 400px;
+}
+.order-list{
+    font-size: 50px;
+}
+.unorder-list{
+    font-size: 50px;
+
+}
+.lists-conteiner, .ol{
+    font-size: 30px;
+}
+}
+
+
+
+
