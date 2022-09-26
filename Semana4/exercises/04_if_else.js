@@ -16,18 +16,18 @@ if (numer <= 0,5){
 
 var age= 25;
 if (age<2){
-    console.log('4-b Is a baby: '+age + 'Is a baby');
-} else if ((age>2)&&(age<12)){
-    console.log('4-b Is a boy: '+age + 'Is a boy');
-}else if ((age>13)&&(age<19)){
-    console.log('4-b Is a teenanger: '+age + 'Is a teenager');
-}else if((age>20)&&(age<30)){
-    console.log('4-b Is young: '+age + 'Is young');
-}else if((age>31)&&(age<60)){
-    console.log('4-b Is an adult: '+age + 'Is an adult');
-}else if((age>61)&&(age<75)){
-    console.log('4-b Is an old adult: '+age + 'Is an old adult');
+    alert('4-b Is a baby: '+age + 'Is a baby');
+} else if ((age>=2)&&(age<=12)){
+    alert('4-b Is a boy: '+age + 'Is a boy');
+}else if ((age>=13)&&(age<=19)){
+    alert('4-b Is a teenanger: '+age + 'Is a teenager');
+}else if((age>=20)&&(age<=30)){
+    alert('4-b Is young: '+age + 'Is young');
+}else if((age>=31)&&(age<=60)){
+    alert('4-b Is an adult: '+age + 'Is an adult');
+}else if((age>=61)&&(age<75)){
+    alert('4-b Is an old adult: '+age + 'Is an old adult');
 }else if (age<75){
-    console.log('4-b Is an elderly: '+age + 'Is an elderly');
+    alert('4-b Is an elderly: '+age + 'Is an elderly');
 }
 

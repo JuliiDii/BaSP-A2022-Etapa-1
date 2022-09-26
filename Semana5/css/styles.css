@@ -16,9 +16,10 @@ h4{
     font-size:25px;
 }
 p{
-    font-size: 15px;
+    font-size: 30px;
     padding:20px;
 }
+
 @media screen and (min-width:768px) {
 .header-conteiner{
 height:100%;
@@ -28,11 +29,6 @@ width: 100%;
 .h1{
 width: 100%;
 }
-
-main{
-    width: 830px;
-
-}
 h2{
     font-size: 60px;
     font-weight: bold;
@@ -41,7 +37,10 @@ h2{
     flex-direction: row;
     padding: 12px;
 }
+main{
+    width: 830px;
 
+}
 .mg-icon {
     padding:0%;
     margin-left:10px;
@@ -156,7 +155,7 @@ font-size: 15px;
 
 }
 }
-@media screen and (min-width:1512px) {
+@media screen and (min-width:1024px) {
 .header-conteiner{
     height:100%;
     width: 100%;
