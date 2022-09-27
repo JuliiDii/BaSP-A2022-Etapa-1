@@ -1,8 +1,8 @@
-.conteiner{
+.conteiner {
     display:block ;
     height: 100vh;
 }
-.form-conteiner{
+.form-conteiner {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -16,12 +16,12 @@
     color: #373867;
     font-size: 20px;
 }
-h2{
+h2 {
     font-size: 30px;
     color:#373867;
     margin: 20px;
 }
-.first-conteiner{
+.first-conteiner {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -29,56 +29,60 @@ h2{
     font-size: 20px;
     line-height: 50px;
 }
-#email{
+#email {
     width:150px;
     height: 20px;
 }
-#password{
+#password {
     width:150px;
     height: 20px;
 }
-.second-conteiner{
+.second-conteiner {
     display: flex;
     flex-direction: column;
     margin: auto;
     width:60px;
     font-size: 20px;
 }
-button{
+#button {
     color: #373867;
-    margin-top: 30px;
+    margin: auto;
+    margin-top: 20px;
     width:80px;
     font-size: 20px;
 }
-footer{
+footer {
     margin: auto;
 }
-#email .redBorder{
+#email .redBorder {
     border: solid red 3px;
 }
 @media screen and (min-width:768px) {
-.form-conteiner{
+.form-conteiner {
     width: 400px;
     height: 400px;
     margin: 300px;
 }
 }
 @media screen and (min-width:1024px) {
-
-main{
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+main {
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     font-family: 'Roboto', sans-serif;
     color: #373867;
     font-size: 20px;
 }
-.dots{
+.dots {
     display: none;
 }
-
-.conteiner{
+.conteiner {
     display: flex;
 }
-.sidebar-conteiner{
+.sidebar-conteiner {
     display: flex;
     display: block;
     background-color: #c4c4c4;
@@ -88,51 +92,51 @@ main{
     padding-left: 50px;
     color:#373867
 }
-.first-input{
+.first-input {
     height:30px ;
     width: 170px;
 }
-.sidebar-conteiner li{
+.sidebar-conteiner li {
     list-style-type: none;
 }
-.nav-conteiner a{
+.nav-conteiner a {
     color:#373867;
 }
-.nav-conteiner li{
+.nav-conteiner li {
     padding-top: 50px;
     font-size: 30px;
 }
-.contactus{
+.contactus {
     padding-top: 100px;
     font-size: 30px;
 }
-.contact-info{
+.contact-info {
     font-size: 25px;
 }
-.contact-item{
+.contact-item {
     display: flex;
 }
-.form-conteiner{
+.form-conteiner {
     margin-left: 350px;
     margin-top: 150px;
     width: 400px;
     height: 400px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
-.first-conteiner{
+.first-conteiner {
     width:80px;
     font-size: 30px;
 }
-#email{
+#email {
     width:200px;
 }
-#password{
+#password {
     width:200px;
 }
-.second-conteiner{
+.second-conteiner {
     width:80px;
     font-size: 30px;
 }

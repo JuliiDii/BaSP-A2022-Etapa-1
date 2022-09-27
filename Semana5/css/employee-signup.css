@@ -1,0 +1,197 @@
+.conteiner {
+    display:block ;
+    height: 100vh;
+}
+.form-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #d9d9d9;
+    width: 330px;
+    height: 600px;
+    margin-top:100px;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    color: #373867;
+    font-size: 15px;
+}
+h2 {
+    font-size: 30px;
+    color:#373867;
+    margin: 20px;
+}
+#name {
+    width: 150px;
+}
+#surname {
+    width: 150px;
+}
+#dni {
+    width: 150px;
+}
+#dateofbirth {
+    width: 150px;
+}
+#phone {
+    width: 150px;
+}
+#address {
+    width: 150px;
+}
+#locality {
+    width: 150px;
+}
+#postcode {
+    width: 150px;
+}
+#email {
+    width: 150px;
+}
+#password {
+    width: 150px;
+}
+#repeatpassword {
+    width: 150px;
+}
+#button {
+    width: 100px;
+    color: #373867;
+    border-radius: 10px;
+}
+@media screen and (min-width:768px) {
+.form-conteiner {
+    width: 700px;
+    height: 700px;
+    line-height: 60px;
+    font-size: 20px;
+}
+.bigform-conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.first-conteiner{
+    display: flex;
+    flex-direction:column;
+}
+.second-conteiner{
+    display: flex;
+    flex-direction:column;
+}
+.third-conteiner{
+    display: flex;
+    flex-direction:column;
+}
+h2{
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+#name {
+    width: 180px;
+    height: 25px;
+}
+#surname {
+    width: 180px;
+    height: 25px;
+}
+#dni {
+    width: 180px;
+    height: 25px;
+}
+#dateofbirth {
+    width: 180px;
+    height: 25px;
+}
+#phone {
+    width: 180px;
+    height: 25px;
+}
+#address {
+    width: 180px;
+    height: 25px;
+}
+#locality {
+    width: 180px;
+    height: 25px;
+}
+#postcode {
+    width: 180px;
+    height: 25px;
+}
+#email {
+    width: 180px;
+    height: 25px;
+}
+#password {
+    width: 180px;
+    height: 25px;
+}
+#repeatpassword {
+    width: 180px;
+    height: 25px;
+}
+#button {
+   margin: auto;
+   margin-top: 100px;
+    width: 150px;
+    height: 30px;
+    color: #373867;
+}
+}
+@media screen and (min-width:1024px) {
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.dots {
+    display: none;
+}
+.conteiner {
+    display: flex;
+}
+.sidebar-conteiner {
+    display: flex;
+    display: block;
+    background-color: #c4c4c4;
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 50px;
+    color:#373867
+}
+.first-input {
+    height:30px ;
+    width: 170px;
+}
+.sidebar-conteiner li {
+    list-style-type: none;
+}
+.nav-conteiner a {
+    color:#373867;
+}
+.nav-conteiner li {
+    padding-top: 50px;
+    font-size: 30px;
+}
+.contactus {
+    padding-top: 100px;
+    font-size: 30px;
+}
+.contact-info {
+    font-size: 25px;
+}
+.contact-item {
+    display: flex;
+}
+h2{
+    font-size: 40px;
+}
+#button{
+    margin-bottom: 50px;
+    height: 40px;
+}

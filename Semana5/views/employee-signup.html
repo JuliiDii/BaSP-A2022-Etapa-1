@@ -4,12 +4,12 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/Semana5/css/reset.css" />
-        <link rel="stylesheet" href="/Semana5/css/styles.css" />
-        <link rel="stylesheet" href="/Semana5/css/header.css" />
-        <link rel="stylesheet" href="/Semana5/css/sidebar.css" />
-        <link rel="stylesheet" href="/Semana5/css/login.css">
-        <link rel="stylesheet" href="/Semana5/css/footer.css" />
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/header.css" />
+        <link rel="stylesheet" href="../css/sidebar.css" />
+        <link rel="stylesheet" href="../css/employee-signup.css" />
+        <link rel="stylesheet" href="../css/footer.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -18,26 +18,29 @@
   <body>
     <header>
       <div class="header-conteiner">
-            <img class="header-logo" src="/Semana5/assets/LOGO-RR 2.svg"alt="logorr"/>
+            <img class="header-logo" src="../assets/LOGO-RR 2.svg"alt="logorr"/>
             <h1>Gigatech Software Solutions SA</h1>
       </div>
     </header>
+      <div class="dots">
+        <img src="../assets/dots.svg" alt="menudots">
+      </div>
       <div class="conteiner">
         <aside>
           <div class="sidebar-conteiner">
             <!--sidebar-->
             <div class="icons-conteiner">
-              <img class="icon1" src="/Semana5/assets/flecha.svg" alt="flecha" />
-              <img class="icon2" src="/Semana5/assets/lupa.svg" alt="lupa" />
+              <img class="icon1" src="../assets/flecha.svg" alt="flecha" />
+              <img class="icon2" src="../assets/lupa.svg" alt="lupa" />
               <input class="first-input" type="text" value="search.." />
             </div>
             <div class="nav-conteiner">
               <!--menu-->
               <nav>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="/Semana5/views/employee-signup.html">SignUp</a></li>
-                  <li><a href="/Semana5/views/login.html">LogIn</a></li>
+                  <li><a href="../views/index.html">Home</a></li>
+                  <li><a href="../views/employee-signup.html">SignUp</a></li>
+                  <li><a href="../views/login.html">LogIn</a></li>
                   <li><a href="#">Information</a></li>
                 </ul>
               </nav>
@@ -46,15 +49,15 @@
               <!--Contact Us-->
               <p class="contactus">Contact Us</p>
               <div class="contact-item">
-                <img class="contact-icon" src="/Semana5/assets/email.svg" alt="emailIcon"/>
+                <img class="contact-icon" src="../assets/email.svg" alt="emailIcon"/>
                 <p class="contact-info">trackgenix@gmail.com</p>
               </div>
               <div class="contact-item">
-                <img class="contact-icon" src="/Semana5/assets/ubi.svg" alt="UbiIcon"/>
+                <img class="contact-icon" src="../assets/ubi.svg" alt="UbiIcon"/>
                 <p class="contact-info">Pellegrini 3000 Rosario, Argentina</p>
               </div>
               <div class="contact-item">
-                <img class="contact-icon" src="/Semana5/assets/tel.svg"alt="TelIcon"/>
+                <img class="contact-icon" src="../assets/tel.svg"alt="TelIcon"/>
                 <p class="contact-info">0800999000</p>
               </div>
             </div>
@@ -62,18 +65,60 @@
         </aside>
         <main>
           <div class="form-conteiner">
-            <h2>Log In</h2>
-            <form>
-                <fieldset class="first-conteiner">
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
+            <h2>Sign up!</h2>
+            <form class="bigform-conteiner">
+              <div class="first-conteiner">
+                <fieldset class="one-conteiner">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
                 </fieldset>
-                <fieldset class="second-conteiner">
-                    <label for="password">Password</label>
-                    <input type="text" id="password">
+                <fieldset class="two-conteiner">
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname">
                 </fieldset>
-                <button class="button">Log In</button>
+                <fieldset class="three-conteiner">
+                  <label for="dni">DNI</label>
+                  <input type="number" id="dni">
+                </fieldset>
+                <fieldset class="four-conteiner">
+                  <label for="dateofbirth">Date of birth</label>
+                  <input type="number" id="dateofbirth">
+                </fieldset>
+                <fieldset class="five-conteiner">
+                  <label for="phone">Phone</label>
+                  <input type="number" id="phone">
+                </fieldset>
+              </div>
+              <div class="second-conteiner">
+                <fieldset class="six-conteiner">
+                  <label for="address">Address</label>
+                  <input type="text" id="address">
+                </fieldset>
+                <fieldset class="seven-conteiner">
+                  <label for="locality">Locality</label>
+                  <input type="text" id="locality">
+                </fieldset>
+                <fieldset class="eigth-conteiner">
+                  <label for="postcode">Post Code</label>
+                  <input type="numer" id="postcode">
+                </fieldset>
+                <fieldset class="nine-conteiner">
+                  <label for="email">Email</label>
+                  <input type="text" id="email">
+                </fieldset>
+                <fieldset class="ten-conteiner">
+                  <label for="password">Password</label>
+                  <input type="password" id="password">
+                </fieldset>
+                <fieldset class="eleven-conteiner">
+                  <label for="repeatpassword"> Repeat password</label>
+                  <input type="password" id="repeatpassword">
+                </fieldset>
+              </div>
             </form>
+            <div class="third-conteiner">
+              <input type="submit" id="button" value="Signup">
+            </div>
           </div>
         </main>
       </div>
@@ -84,9 +129,9 @@
                   <p>© 2022 GigaTech Software Solutions SA.</p>
               </div>
               <div>
-                  <a href="#"><img src="/Semana5/assets/facebook.svg" alt="Facebook"/></a>
-                  <a href="#"><img class="tw-icon" src="/Semana5/assets/tw.svg"alt="Twitter"/></a>
-                  <a href="#"><img class="li-icon" src="/Semana5/assets/linkedin.svg" alt="Linkedin"/></a>
+                  <a href="#"><img src="../assets/facebook.svg" alt="Facebook"/></a>
+                  <a href="#"><img class="tw-icon" src="../assets/tw.svg"alt="Twitter"/></a>
+                  <a href="#"><img class="li-icon" src="../assets/linkedin.svg" alt="Linkedin"/></a>
               </div>
           </div>
       </footer>
