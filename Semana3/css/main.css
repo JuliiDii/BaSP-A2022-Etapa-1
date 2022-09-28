@@ -4,10 +4,10 @@ body{
     color: #373867;
     font-size: 20px;
 }
-.balance-conteiner{
+.balance-container{
     margin-top:60px;
 }
-.first-conteiner{
+.first-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ body{
     width: 40px;
     height: 40px;
 }
-.balance-conteiner,.tecnologies-conteiner,.newtecnologies-conteiner {
+.balance-container,.tecnologies-container,.newtecnologies-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +53,7 @@ body{
     height: 33px;
 
 }
-.tragectory-conteiner{
+.tragectory-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +78,7 @@ body{
     height: 139px;
     margin-top:20px;
 }
-.benefits-conteiner{
+.benefits-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,14 +91,14 @@ body{
     height: 130px;
 
 }
-.workwithus-conteiner{
+.workwithus-container{
     text-align: center;
     margin-bottom: 20px;
 }
 .benefits-lorem{
     width: 200px;
 }
-.functions-conteiner{
+.functions-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,12 +116,12 @@ body{
     margin-top: 40px;
     border-radius: 10px;
 }
-.functionsli-conteiner{
+.functionsli-container{
     margin-top: 30px;
     font-size:20px;
     line-height: 2em;
 }
-.getintouch-conteiner{
+.getintouch-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,14 +133,14 @@ body{
 #getintouch-tittle{
     margin-bottom: 40px;
 }
-.getintouchinput-conteiner{
+.getintouchinput-container{
     width:300px;
     height: 50px;
     margin-bottom: 20px;
     color:#c4c4c4;
     border-radius: 4px;
 }
-.textarea-conteiner{
+.textarea-container{
     width:300px;
     height: 100px;
     margin-bottom: 20px;
@@ -152,7 +152,7 @@ body{
     height: 33px;
 
 }
-.tittle-conteiner{
+.tittle-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,7 +171,7 @@ body{
 .tittle-lorem{
     width:250px;
 }
-.lists-conteiner{
+.lists-container{
     display: flex;
     flex-direction: column;
     justify-content: center;

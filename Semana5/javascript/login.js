@@ -11,8 +11,11 @@ window.onload = function() {
     emailInput.onblur = function() {
         var inputValue = emailInput.value;
         if (!emailExpression.test(inputValue)) { // if (emailExpression.test(inputValue) === false)
-            var errorMessage = "Invalid email format";
+            var p = document.createElement("p");
             signInErrors.email = errorMessage;
+            p.innerHTML = "Invalid email format";
+            var errorMessage = p.innerHTML;
+            p.classList.add("font-red");
             emailInput.classList.add('redBorder');
             var errorMessageElement = document.createElement('p');
             errorMessageElement.setAttribute('id', 'emailError');
@@ -41,6 +44,7 @@ window.onload = function() {
             passwordInput.classList.add('redBorder');
             var errorMessageElement = document.createElement('p');
             errorMessageElement.setAttribute('id', 'passwordError');
+            errorMessage.classList.add("font-red");
             errorMessageElement.innerText = errorMessage;
             passwordInput.insertAdjacentElement('afterend', errorMessageElement);
         } else {

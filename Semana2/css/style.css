@@ -49,7 +49,7 @@ aside{
     width: 200px;
 }
 /*Menu*/
-.nav-conteiner{
+.nav-container{
     line-height: 50px; 
     text-align: center;
     border-bottom: solid 2px #373867;
@@ -59,7 +59,7 @@ aside{
     color: #373867;
 }
 /*contactus*/
-.contactus-conteiner{
+.contactus-container{
     position:relative;
     top:50px;
     text-align: center;
@@ -101,7 +101,7 @@ h3{
     font-weight: bold;
     text-align: center;
 }
-.balance.conteiner{
+.balance.container{
     height:500px;
     width:800px;
 }
@@ -127,7 +127,7 @@ h3{
     top:20px;
     border-radius:5px;
 }
-.tecnologies-conteiner{
+.tecnologies-container{
     position:relative;
     left:1050px;
     bottom:550px;
@@ -159,7 +159,7 @@ h3{
     bottom:90px;
     border-radius:5px;
 }
-.newtecnologies-conteiner{
+.newtecnologies-container{
     position:relative;
     bottom:550px;
     left:1050px;
@@ -169,7 +169,7 @@ h3{
 }
 
 /*Tragectory*/
-.tragectory-conteiner{
+.tragectory-container{
     position:relative;
     left:450px;
     bottom:350px;
@@ -194,12 +194,12 @@ h3{
     bottom:300px;
 }
 /*Tragnenix Benefits*/
-.benefits-conteiner{
+.benefits-container{
     height:250px;
     width:1400px;
     border-bottom: solid 2px #373867;
 }
-.workwithus-conteiner{
+.workwithus-container{
    position:relative;
    bottom:300px;
    left: 180px;
@@ -218,14 +218,14 @@ h4{
     left:160px;
     bottom:70px;
 }
-.productivity-conteiner{
+.productivity-container{
     position:relative;
     bottom:300px;
     left:440px;
     
     width:50%
 }
-.teams-conteiner{
+.teams-container{
     position:relative;
     bottom:550px;
     left:900px;
@@ -233,7 +233,7 @@ h4{
     width:50%
 }
 
-.progress-conteiner{
+.progress-container{
     position:relative;
     bottom:600px;
     left:440px;
@@ -241,7 +241,7 @@ h4{
     width:50%
 }
 
-.decisions-conteiner{
+.decisions-container{
     position:relative;
     bottom:850px;
     left:900px;
@@ -249,17 +249,17 @@ h4{
     width:50%
 }
 /*functions*/
-.functions-conteiner{
+.functions-container{
     height:600px;
     width:1400px;
     border-bottom: solid 2px #373867;
 }
-.functions-conteiner2{
+.functions-container2{
     position:relative;
     top:50px;
     left: 180px;
 }
-.functionsimg-conteiner{
+.functionsimg-container{
     position:relative;
     left:420px;
     top:100px; 
@@ -268,7 +268,7 @@ h4{
     border-radius:10px;
    
 }
-.functionsli-conteiner{
+.functionsli-container{
     position:relative;
     left:1100px;
     bottom:200px;
@@ -277,25 +277,25 @@ h4{
     height: 361px;
 }
 /*get in touch*/
-.getintouch-conteiner{
+.getintouch-container{
     position:relative;
     top:100px;
     left:600px;
     height:500px;
     border-bottom: solid 2px #373867
 }
-.getintouch-conteiner2{
+.getintouch-container2{
     position:relative;
    bottom:100px;
     right:500px;
 }
-.getintouchinput-conteiner{
+.getintouchinput-container{
     height:40px;
     width:800px;
     right:200px;
     color: #c4c4c4;
 }
-.textarea-conteiner{
+.textarea-container{
     height:150px;
     width:800px;
     left:10px;
@@ -312,7 +312,7 @@ h4{
     top:150px;
     left:150px;
 }
-.tittle-conteiner{
+.tittle-container{
     position:relative;
     height:700px;
     width:1400px;
@@ -339,7 +339,7 @@ h4{
     right:300px;
     top:300px;
 }
-.lists-conteiner{
+.lists-container{
     
     width:800px;
     height:600px;

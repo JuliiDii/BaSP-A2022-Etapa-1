@@ -3,7 +3,7 @@ header{
     height: 200px;
     background-color: #373867;
 }
-.header-conteiner{
+.header-container{
     display: flex;
     align-items: center;
     height:100%;

@@ -20,7 +20,7 @@ p{
     padding:20px;
 }
 @media screen and (min-width:768px) {
-.header-conteiner{
+.header-container{
 height:100%;
 width: 100%;
 
@@ -47,7 +47,7 @@ h2{
     margin-left:10px;
     height: 30px;
 }
-.home-conteiner{
+.home-container{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -56,7 +56,7 @@ h2{
     margin-left: 50px;
     margin-top: 50px;
 }
-.newtecnologies-conteiner .home-tittle{
+.newtecnologies-container .home-tittle{
     height: 74px;
 }
 #tragectory-tittle{
@@ -67,22 +67,22 @@ h2{
     font-size: 25px;
     width:500px ;
 }
-.trackgenixbenefits-conteiner{
+.trackgenixbenefits-container{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: center;
 }
-.benefits-conteiner{
+.benefits-container{
     width: 300px;
 }
-.workwithus-conteiner{
+.workwithus-container{
     font-size:50px;
     width: 500px;
     margin-top: 300px;
     padding-left: 150px;
 }
-.functions-conteiner{
+.functions-container{
     flex-direction:row;
     text-align:center;
     margin-bottom:180px;
@@ -98,7 +98,7 @@ h2{
     height:446px;
     padding-right:100px;
 }
-.functionsli-conteiner{
+.functionsli-container{
     margin-top: 30px;
     font-size:30px;
     font-weight: bold;
@@ -108,11 +108,11 @@ h2{
     font-size:50px;
     width: 500px;
 }
-.getintouchinput-conteiner{
+.getintouchinput-container{
     width:550px;
     height: 50px;
 }
-.textarea-conteiner{
+.textarea-container{
     width:550px;
     height: 100px;
 }
@@ -121,7 +121,7 @@ h2{
     width: 150px;
 
 }
-.tittle-conteiner{
+.tittle-container{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -139,7 +139,7 @@ h2{
 .tittle-lorem{
 font-size: 15px;
 }
-.lists-conteiner{
+.lists-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -157,7 +157,7 @@ font-size: 15px;
 }
 }
 @media screen and (min-width:1024px) {
-.header-conteiner{
+.header-container{
     height:100%;
     width: 100%;
 }
@@ -166,7 +166,7 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-.sidebar-conteiner{
+.sidebar-container{
     display: block;
     background-color: #c4c4c4;
     width: 350px;
@@ -179,13 +179,13 @@ h1{
     height:30px ;
     width: 170px;
 }
-.sidebar-conteiner li{
+.sidebar-container li{
     list-style-type: none;
 }
-.nav-conteiner a{
+.nav-container a{
     color:#373867;
 }
-.nav-conteiner li{
+.nav-container li{
     padding-top: 50px;
     font-size: 30px;
 }
@@ -199,38 +199,38 @@ h1{
 .contact-item{
     display: flex;
 }
-.main-conteiner{
+.main-container{
     display: flex;
 
 }
-.conteiner{
+.container{
     width: 100%;
 }
 .dots-sobre{
    display: none;
 }
-.first-conteiner{
+.first-container{
     display: flex;
     justify-content: center;
 }
-.balance-conteiner .home-img{
+.balance-container .home-img{
     width: 590px;
     height: 345px;
 }
-.balance-conteiner .home-tittle{
+.balance-container .home-tittle{
     width: 600px;
 }
-.balance-conteiner .home-lorem{
+.balance-container .home-lorem{
     width: 600px;
     font-size: 25px;
 }
-.newtecnologies-conteiner, .tecnologies-conteiner{
+.newtecnologies-container, .tecnologies-container{
     flex-direction: row;
 }
 .home-lorem{
     font-size: 25px;
 }
-.balance-conteiner{
+.balance-container{
     height:600px;
 }
 .tragectory-items{
@@ -253,12 +253,12 @@ h1{
     font-size: 25px;
 }
 
-.workwithus-conteiner{
+.workwithus-container{
     font-size: 60px;
     width: 800px;
 
 }
-.trackgenixbenefits-conteiner{
+.trackgenixbenefits-container{
     display: flex;
     flex-direction: row;
 }
@@ -278,14 +278,14 @@ h4{
     height:417px;
    border-radius: 10px;
 }
-.functionsli-conteiner{
+.functionsli-container{
    width: 309px;
 }
-.getintouchinput-conteiner{
+.getintouchinput-container{
     width:780px;
     height: 55px;
 }
-.textarea-conteiner{
+.textarea-container{
     width:780px;
     height: 55px;
 }
@@ -293,11 +293,11 @@ h4{
     width: 162px;
 
 }
-.tittlecomplete-conteiner{
+.tittlecomplete-container{
     display: flex;
     flex-direction: row;
 }
-.tittle-conteiner{
+.tittle-container{
     flex-direction: column;
 }
 .tittle-lorem{
@@ -314,7 +314,7 @@ h4{
     font-size: 50px;
 
 }
-.lists-conteiner, .ol{
+.lists-container, .ol{
     font-size: 30px;
 }
 }
