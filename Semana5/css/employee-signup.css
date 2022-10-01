@@ -22,6 +22,9 @@ h2 {
     color:#373867;
     margin: 20px;
 }
+.label-inputcontainer{
+    line-height: 30px;
+}
 #name {
     width: 150px;
 }
@@ -61,21 +64,19 @@ h2 {
     border-radius: 10px;
 }
 .font-red{
-    font-size: 15px;
+    font-size: 10px;
     color: red;
 }
 .greenBorder{
     border: solid 3px green;
 }
 @media screen and (min-width:768px) {
-.container {
-    display:block ;
-    height: 100vh;
+.label-inputcontainer{
+    line-height: 40px;
 }
 .form-container {
     width: 700px;
-    height: 800px;
-    line-height: 60px;
+    height: 500px;
     font-size: 20px;
 }
 .bigform-container{
@@ -146,7 +147,7 @@ h2{
 }
 #button {
    margin: auto;
-   margin-top: 100px;
+   margin-top: 50px;
     width: 150px;
     height: 30px;
     color: #373867;

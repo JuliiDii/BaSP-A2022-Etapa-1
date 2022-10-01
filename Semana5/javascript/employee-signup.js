@@ -3,7 +3,7 @@ window.onload = function() {
         name :'Required',
         surname :'Required',
         dni : 'Required',
-        dateofbirth : 'Required',
+        dateOfBirth : 'Required',
         phone :'Required',
         address : 'Required',
         locality : 'Required',
@@ -22,29 +22,17 @@ window.onload = function() {
     var emailInput = document.getElementById("email");
     var passwordInput = document.getElementById("password");
     var nameContainer = document.getElementById("nameContainer");
-    var surnameContainer = document.getElementById("nameContainer");
-    var dniContainer = document.getElementById("nameContainer"); 
-    var dateofbirthContainer = document.getElementById("nameContainer");
-    var phoneContainer = document.getElementById("nameContainer");
-    var addressContainer = document.getElementById("nameContainer");
-    var localityContainer = document.getElementById("nameContainer");
-    var postcodeContainer = document.getElementById("nameContainer");
-    var emailContainer = document.getElementById("nameContainer");
-    var passwordContainer = document.getElementById("nameContainer");
-    var repearPasswordContainer = document.getElementById("nameContainer");
+    var surnameContainer = document.getElementById("surnameContainer");
+    var dniContainer = document.getElementById("dniContainer");
+    var dateOfBirthContainer = document.getElementById("dateOfBirthContainer");
+    var phoneContainer = document.getElementById("phoneContainer");
+    var addressContainer = document.getElementById("addressContainer");
+    var localityContainer = document.getElementById("localityContainer");
+    var postcodeContainer = document.getElementById("postcodeContainer");
+    var emailContainer = document.getElementById("emailContainer");
+    var passwordContainer = document.getElementById("passwordContainer");
+    var repearPasswordContainer = document.getElementById("repeatPasswordContainer");
 
-    var inputValue = nameInput.value;
-    var InputValue = surnameInput.value;
-    var InputValue = passwordInput.value;
-    var InputValue = emailInput.value;
-    var InputValue = dniInput.value;
-    var InputValue = dateOfBirthInput.value;
-    var InputValue = phoneInput.value;
-    var InputValue = addressInput.value;
-    var InputValue = localityInput.value;
-    var InputValue = postCodeInput.value;
-    var InputValue = emailInput.value;
-    var InputValue = passwordInput.value;
 
     nameInput.onblur = function() {
         if (nameInput.value === "" || nameInput.value.length <= 3){
@@ -62,7 +50,7 @@ window.onload = function() {
     }
     nameInput.onfocus = function() {
         nameInput.classList.remove("greenBorder");
-        var nameError = document.getElementById('nameError');
+        var nameError = document.getElementById("nameError");
         if (nameError) {
             nameError.remove();
         }
@@ -89,10 +77,10 @@ window.onload = function() {
     }
     var dnicheck = /[0-9]{7,}$/;
     dniInput.onblur = function() {
-        if (!dnicheck.test(inputValue)){
+        if (dnicheck.test (dniInput.value) === false){
             var errorMessageElement3 = document.createElement('p');
-            errorMessageElement3.innerText= "Invalid dni format";
-            dniInput.classList.add("font-red");
+            errorMessageElement3.innerText= "Invalid dni format"
+            errorMessageElement3.classList.add ("font-red");
             dniContainer.append(errorMessageElement3);
             errorMessageElement3.setAttribute('id', 'dniError');
 
@@ -109,33 +97,38 @@ window.onload = function() {
             dniError.remove();
         }
     }
-    
+    dateOfBirthInput.onblur= function(){
+        var year = dateOfBirthInput.value.split("-");
+        if (dateOfBirthInput.value === "" || year[0]>2004){
+            var errorMessageElement4 = document.createElement('p');
+            errorMessageElement4.innerText= "too young";
+            errorMessageElement4.classList.add ("font-red");
+            dateOfBirthContainer.append(errorMessageElement4);
+            errorMessageElement4.setAttribute("id", "dateOfBirthError");
 
-    // // dniInput.onfocus = function() {
-    //         dniInput.classList.remove('greenBorder');
-    //         dniInput.classList.remove('redBorder');
-    //         var dniError = document.getElementById('dniError');
-    //         if (dniError) {
-    //             dniError.remove();
-    //         }
-    //     }
-    // dniInput.onblur = function() {
-    //     if (inputValue === "") {
-    //             var errorMessage = "dni input is required";
-    //             signUpErrors.dni = errorMessage;
-    //             dniInput.classList.add('redBorder');
-    //             var errorMessageElement3 = document.createElement('p');
-    //             errorMessageElement3.setAttribute('id', 'dniError');
-    //             errorMessage.classList.add("font-red");
-    //             errorMessageElement3.innerText = errorMessage;
-    //             dniInput.insertAdjacentElement('afterend', errorMessageElement3);
-    //     } else {
-    //             signInErrors.password = null;
-    //             passwordInput.classList.add('greenBorder');
-    //         }
-    //     }
+        }else{
+            signUpErrors.dateOfBirth = null;
+            dateOfBirthInput.classList.add("greenBorder");
+        }
 
-   
+    }
+    dateOfBirthInput.onfocus = function() {
+        dateOfBirthInput.classList.remove("greenBorder");
+        var dateOfBirthError = document.getElementById("dateOfBirthError");
+        if (dateOfBirthError) {
+            dateOfBirthError.remove();
+        }
+    }
+
+    phoneInput.onblur = function(){
+        if (phoneInput.value ===""){
+            var errorMessageElement4 = document.createElement('p');
+            errorMessageElement4.innerText= "Invalid phone number"
+            errorMessageElement4.classList.add ("font-red");
+            phoneContainer.append(errorMessageElement4);
+            errorMessageElement4.setAttribute("id", "phoneError");
+        }
+    }
 
 
 }
